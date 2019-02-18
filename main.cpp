@@ -47,7 +47,7 @@ int main()
 
     if (!loadDataFromFile())
     {
-        getchar();
+        system("pause");
         return 0;
     }
 
@@ -59,7 +59,7 @@ int main()
     outputMatrixToDisplay(E);
     outputMatrixToFile(E);
 
-    getchar();
+    system("pause");
     return 0;
 }
 //=====================================================
